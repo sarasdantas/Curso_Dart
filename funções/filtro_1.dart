@@ -22,5 +22,5 @@ main() {
     }
   }
 
-  print(notasMuitoBoas);
+  print(notasMuitoBoas); // [8.8, 9.1]
 }
