@@ -12,9 +12,17 @@ main() {
   // }
 
   // print(total);
+
+  var nomes = ['Ana', 'Bia', 'Carlos'];
+  print(nomes.reduce(juntar));
 }
 
 double somar(double a, double b) {
   print("$a $b"); // Aqui vai imprimir a conta 'detalhada', passo a passo
   return a + b;
+}
+
+String juntar(String a, String b) {
+  print("$a $b"); // Aqui vai imprimir a conta 'detalhada', passo a passo
+  return "$a, $b";
 }
